@@ -17,7 +17,7 @@ matFlower
 int main(int argc, const char * argv[]) {
     
     namedWindow("w");
-    string filePath = "/Users/bro/Downloads/";
+    string filePath = "${path}Downloads/";
     string img1FileName = "flower1.jpg";
     string img2FileName = "flower2.jpg";
 

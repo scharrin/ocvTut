@@ -30,11 +30,11 @@ thresholdColorLimit = 255
 int main(int argc, const char * argv[]) {
     
     namedWindow("w");
-    string filePath = "/Users/bro/Downloads/";
+    string filePath = "${path}Downloads/";
     string img1FileName = "flower1.jpg";
     //    string img2FileName = "flower2.jpg";
-    //    string img2FileName = "/Users/bro/Desktop/dev/ocv/cvTest/cvTest/src/key-circular-button.png";
-    string img2FileName = "/Users/bro/Downloads/logo_2.png";
+    //    string img2FileName = "${path}${path2}cvTest/cvTest/src/key-circular-button.png";
+    string img2FileName = "${path}Downloads/logo_2.png";
     matFlower = imread(filePath + img1FileName);
     //    matImgLogo = imread(img2FileName, -1);
     //    Mat channels[4];
